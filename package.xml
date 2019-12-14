@@ -2,7 +2,7 @@
 <package format="2">
   <name>obstacle-avoidance-turtlebot</name>
   <version>0.0.0</version>
-  <description>The obstacle-avoidance-turtlebot package</description>
+  <description>This package implements a naive obstacle avoidance technique for Turtlebot 3 using planar laser range-finder. It has been tested using Turtlebot 3 simulation in Gazebo.</description>
 
   <maintainer email="sadmansakib.enan@gmail.com">Sadman Sakib Enan</maintainer>
 
