@@ -24,7 +24,7 @@ roslaunch obstacle-avoidance-turtlebot naive_obs_avoid.launch
 ```
 
 ## Demo
-
+![demo.gif](demo/demo.gif)
 
 
 ## Details
@@ -36,3 +36,6 @@ If you do `rosmsg show LaserScan` and `rosmsg show Twist`, you would see the mes
 - we are interested in the `float32[] ranges` from the `LaserScan` message which is nothing but a `list` of 359 obstacle distances from the robot (0 degree to 359 degree).
 And,
 - we are interested in both `linear` and `angular` 3D vectors' x and z values, respectively (to move forward and rotate).
+
+### Note
+This is implemented on Ubuntu 18.04, ROS Melodic Morenia.
