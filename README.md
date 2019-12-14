@@ -35,7 +35,7 @@ We define a `obstacle_avoidance_node` which subscribes to `/scan` topic and read
 If you do `rosmsg show LaserScan` and `rosmsg show Twist`, you would see the message formats.
 - we are interested in the `float32[] ranges` from the `LaserScan` message which is nothing but a `list` of 359 obstacle distances from the robot (0 degree to 359 degree).
 And,
-- we are interested in both `linear` and `angular` 3D vectors' x and z values, respectively (to move forward and rotate).
+- we are interested in both `linear` and `angular` 3D vectors' x and z values, respectively (to move forward and rotate) from the `Twist` message.
 
 ### Note
 This is implemented on Ubuntu 18.04, ROS Melodic Morenia.
