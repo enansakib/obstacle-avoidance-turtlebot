@@ -12,7 +12,8 @@ def callback(dt):
     thr1 = 0.8 # Laser scan range threshold
     thr2 = 0.8
     if dt.ranges[0]>thr1 and dt.ranges[15]>thr2 and dt.ranges[345]>thr2: # Checks if there are obstacles in front and
-                                                                         # 15 degrees left and right
+                                                                         # 15 degrees left and right (Try changing the
+									 # the angle values as well as the thresholds)
         move.linear.x = 0.5 # go forward (linear velocity)
         move.angular.z = 0.0 # do not rotate (angular velocity)
     else:
