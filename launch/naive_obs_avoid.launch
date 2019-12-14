@@ -1,0 +1,3 @@
+<launch>
+    <node name="obstacle_avoidance_node" pkg="obstacle-avoidance-turtlebot" type="naive_obs_avoid_tb3.py" />
+</launch>
